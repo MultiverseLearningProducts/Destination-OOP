@@ -4,7 +4,7 @@
   "description": "![logo](https://user-images.githubusercontent.com/44912347/202273653-1c259f67-7b01-46fc-8e4d-ccb804649e27.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest ",
     "test:report": "jest --coverage=true"
   },
   "repository": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/MultiverseLearningProducts/Classy-Airport/issues"
   },
   "homepage": "https://github.com/MultiverseLearningProducts/Classy-Airport#readme",
-  "dependencies": {
-    "jest": "^29.5.0"
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
