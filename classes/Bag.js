@@ -16,5 +16,4 @@ assignOwner(person){
 }
 
 
-
 module.exports = Bag;

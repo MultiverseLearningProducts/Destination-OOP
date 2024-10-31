@@ -1,9 +1,10 @@
 class Airport {
 static airportCode;
 #planes
-        constructor(name, airportCode ){
+        constructor(name, airportCode){
             this.name = name;
             this.#planes = [];
+            this.airportCode =  airportCode
         }
         
         getPlanes() {
@@ -17,9 +18,7 @@ static airportCode;
 
 }
 
-let p1 = new Airport("H", "TKY", )
 
 
-console.log(p1.airportCode)
 
 module.exports = Airport;

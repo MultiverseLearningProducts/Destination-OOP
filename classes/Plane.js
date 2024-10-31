@@ -18,10 +18,6 @@ class Plane {
 
 }
 
-let p1 = new Plane("H", "TKY", "NY")
-p1.addPassenger(bag)
-p1.getPassengers()
 
-console.log(p1)
 
 module.exports = Plane;
