@@ -1,7 +1,7 @@
 const Bag = require("../../classes/Bag");
 const Person = require("../../classes/Person");
 
-describe("Testing fro Person", () => {
+describe("Testing for Person", () => {
   const person = new Person("Codey", "San Diego");
   test("When creating a new person it is an instance of Person", () => {
     expect(person instanceof Person).toBeTruthy();

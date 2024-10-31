@@ -1,20 +1,21 @@
+const Airport = require("./Airport");
+
 class Plane {
-//   #passengers;
-//   constructor(company, origin, destination) {
-//     this.company = company;
-//     this.origin = origin;
-//     this.destination = destination;
-//     this.#passengers = [];
-//   }
+  #passengers;
+  constructor(company, destination) {
+    this.company = company;
+    this.destination = destination;
+    this.origin = Airport.airportCode;
+    this.#passengers = [];
+  }
 
-//   getPassengers() {
-//     return this.#passengers;
-//   }
+  getPassengers() {
+    return this.#passengers;
+  }
 
-//   addPassenger(passenger) {
-//     this.#passengers.push(passenger);
-//   }
+  addPassenger(passenger) {
+    this.#passengers.push(passenger);
+  }
 }
 
 module.exports = Plane;
-// origin: The origin set to the static property of Airport.airportCode (created in the next section).
